@@ -10,7 +10,7 @@ Using mathematical notation, come up with boolean expressions which test the typ
 -  EQUALS " == "
 
 ## Electric Logic
-Here is a link to [conditional logic](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+To sort out comsumer troubles when they file a problem report online with their product, we try to filter out unnecessary requests for help.  These boolean expressions represent our efforts to model "dumb" situations.
 
 ### Tasks
 -  Initialize the variables to either  true or false.
@@ -18,3 +18,5 @@ Here is a link to [conditional logic](https://developer.mozilla.org/en-US/docs/L
 -  Use you console.log() to display each variable and view its output.
 -  Open the **terminal** and run the file by typing **node logicgates.js** then hit enter.
 -  Record your results in the results file.
+
+Next unit we will be using boolean expressions more intensly, here is a quick look into the future if you are curious... AFTER FINISHING THIS ASSIGNMENT! Here is a link to [conditional logic](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
