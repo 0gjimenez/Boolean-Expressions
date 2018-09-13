@@ -24,11 +24,11 @@ let c;
 
 // 1. Your electronic device is ready if it is PLUGGED into an OUTLET with ELECTRICITY AND the POWERSWITCH is ON. Replace all of the c's with the correct variables.
 
-let ready = c && c && c && c && c;
+let ready = Elec && c && c && c && c;
 
 // 2. You forget to pay your elecrtic bill.  This means you have no electrity, set the variable unPaid equal to electrity AND false;
 
-let unPaid; 
+let unPaid = ;
 
 // 3. Old people just don't understand electronics.  Fill in the variable oldPeople to be equal to powerSwitch AND the opposite of powerSwitch
 
