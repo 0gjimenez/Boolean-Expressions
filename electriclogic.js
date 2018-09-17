@@ -1,10 +1,8 @@
 //Initialize the variables below to what you want: either true or false.
-let outlet;
-let electricity;
-let plug;
-let powerSwitch;
-
-
+let outlet = II;
+let electricity = E;
+let plug = P;
+let powerSwitch = S;
 
 
 //These variables should never change.
@@ -24,23 +22,23 @@ let c;
 
 // 1. Your electronic device is ready if it is PLUGGED into an OUTLET with ELECTRICITY AND the POWERSWITCH is ON. Replace all of the c's with the correct variables.
 
-let ready = Elec && c && c && c && c;
+let ready = true && E && II && P && S;
 
 // 2. You forget to pay your elecrtic bill.  This means you have no electrity, set the variable unPaid equal to electrity AND false;
 
-let unPaid = ;
+let unPaid = E && false;
 
 // 3. Old people just don't understand electronics.  Fill in the variable oldPeople to be equal to powerSwitch AND the opposite of powerSwitch
-
-let oldPeople = powerSwitch && c;
+ 
+let oldPeople = S && !True;
 
 // 4. You are unsure if your device is plugged in or turned on.  Set the variable unsure to the OPPOSITE of POWERSWITCH AND the group - aka parentheses - of the OPPOSITE of PLUG OR the OPPOSITE of OUTLET.
 
-let unsure;
+let unsure; !S && (!P || II)
 
 // 5. Something is broken.  You are not sure if it is your power cord or the wall.  Set the variable broken equal to the OUTLET OR the PLUG OR the POWERSWITCH
 
-let broken;
+let broken = II || P || S;
 
 
 
