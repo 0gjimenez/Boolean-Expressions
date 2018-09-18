@@ -12,16 +12,10 @@ let z = 9;
 
 //just using x
 let positiveX = (x > 0);
-let negativeX;
-
-//using all 3 variables
-let allPositive = x && y && z ;
-let allNegative;
-
-//using all 3 variables
-let atLeastOnePositive;
-let atLeastOneNegative;
-
+let negativeX = (0 < x);
+let allNegative = (0 < x && 0 < y && 0 < z);
+let atLeastOnePositive;(x > 0 || 0 < y || 0 < z);
+let atLeastOneNegative;(0 < x || y > 0 || z > 0);
 
 /*
 *
