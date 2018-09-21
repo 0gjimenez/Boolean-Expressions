@@ -11,12 +11,13 @@ let z = 9;
 */
 
 //just using x
-let positiveX = (x > 0);
-let negativeX = (0 < x);
-let allNegative = (0 < x && 0 < y && 0 < z);
-let atLeastOnePositive;(x > 0 || 0 < y || 0 < z);
-let atLeastOneNegative;(0 < x || y > 0 || z > 0);
-
+let positiveX = x > 0;
+let negativeX = 0 < x;
+let allPositive = x > 0 && y > 0 && z > 0;
+let allNegative  = x < 0 && y < 0 && z < 0;
+let atLeastOnePositive = x > 0 || 0 < y || 0 < z;
+let atLeastOneNegative = x < 0 || y > 0 || z > 0;
+ 
 /*
 *
 *  This section of code below here shows the product of your work.
